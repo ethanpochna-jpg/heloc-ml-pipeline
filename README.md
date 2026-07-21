@@ -21,6 +21,7 @@ A false positive (auto-rejecting a good applicant, ~$1,500 in lost lending value
 | `final_model_files/` | Deployed artifacts consumed by the Streamlit app: trained random forest, scaler, feature order, model config (hyperparameters + threshold), and preprocessing info (imputation medians, missing-value codes, special-imputation rules). |
 | `report_condensed.docx` | Full project report: cost analysis, EDA, model selection, FRL assessment, robustness and monitoring plan. |
 | `ML_HELOC_Presentation.pptx` | Project presentation. |
+| `FRL_creation_process_.txt` | A more detailed explanation of how I employed Claude to create the FRL model used for this project |
 
 ## Pipeline overview
 
@@ -57,4 +58,4 @@ Best hyperparameters: `max_rules=28, min_support_frac=0.0362, n_thresholds=20, m
 
 ## Team
 
-Ethan Pochna (falling rule list, cost analysis, F-beta + precision evaluation plan, preprocessing contributions), Haris (EDA and preprocessing), Elma (model training and evaluation), James (Streamlit application). Generative AI usage is disclosed in the report, Section V.
+Ethan Pochna (falling rule list, cost analysis, F-beta + precision evaluation plan, preprocessing, model evaluation, Streamlit application), Haris (business analysis, EDA, preprocessing), Elma (preprocessing, tradiitonal model training, model evaluation, SHAP analysis), James (Streamlit application). Generative AI usage is disclosed in the report, Section V.
