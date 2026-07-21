@@ -2,7 +2,7 @@
 
 Machine learning pipeline for predicting HELOC (Home Equity Line of Credit) applicant risk using the FICO HELOC dataset (10,459 applicants, 23 numeric credit-bureau predictors). The model classifies each applicant's `RiskPerformance` as **Good** or **Bad**: applicants predicted Good are routed to loan officers for review; applicants predicted Bad are denied with an explanation of the top contributing factors.
 
-The final model — a random forest with a tuned decision threshold — is served by a companion Streamlit application (separate repository). This repository contains the full modeling pipeline that produced it.
+The final model — a random forest with a tuned decision threshold — is served by a companion Streamlit application: [HELOC-Loans-Prototype](https://github.com/ethanpochna-jpg/HELOC-Loans-Prototype). This repository contains the full modeling pipeline that produced it.
 
 ## Business framing
 
